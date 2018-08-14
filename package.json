@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Alexander Griffioen",
+    "email": "mail@oscaralexander.com",
+    "url": "https://github.com/oscaralexander"
+  },
+  "bugs": {
+    "url": "https://github.com/oscaralexander/jquery-horizon/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "description": "jQuery plugins for scroll-based interactions.",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-minify": "^0.4.3",
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "npx": "^10.2.0"
+  },
+  "homepage": "",
+  "keywords": [
+    "es6",
+    "horizon",
+    "jquery",
+    "parallax",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "./src/jquery.horizon.js",
+  "name": "jquery-horizon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscaralexander/jquery-horizon.git"
+  },
+  "scripts": {
+    "build": "npx babel ./src/jquery-horizon.js --out-file ./dist/jquery-horizon.min.js",
+    "build --production": "BABEL_ENV=production npm run build",
+    "lint": "eslint src"
+  },
+  "version": "1.0.0"
+}
