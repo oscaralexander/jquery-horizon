@@ -10,7 +10,7 @@
   "dependencies": {
     "jquery": "^3.3.1"
   },
-  "description": "jQuery plugins for scroll-based interactions.",
+  "description": "jQuery plugin for scroll-based interactions.",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-minify": "^0.4.3",
