@@ -1,2 +1,2 @@
 # jquery-horizon
-jQuery plugin for scroll-based interaction.
+jQuery plugin for scroll-based interactions.
